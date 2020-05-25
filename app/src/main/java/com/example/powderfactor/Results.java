@@ -22,8 +22,8 @@ public class Results extends AppCompatActivity {
         soft_rock = findViewById(R.id.pf_soft_rock);
 
 
-        hard_rock.setText("Powder Factor (PF) = Mc/Vr = " + pf_hard_rock);
-        soft_rock.setText("Powder Factor (PF) = Mc/Vr = " + pf_soft_rock);
+        hard_rock.setText("Powder Factor (PF) = Mc/Vr = " + pf_hard_rock+ "   kg/m^3");
+        soft_rock.setText("Powder Factor (PF) = Mc/Vr = " + pf_soft_rock+"   kg/m^3");
 
 
     }
